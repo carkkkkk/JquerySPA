@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SPA Sample</title>
+	<link href="../Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-fixed navbar-inverse" role="navigation">
+        <div class="container">
+            <a href="#home" title="Home" data-page-path="./common/" class="navbar-brand">Home</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#about" title="About" data-page-path="./common/">About</a></li>
+            <li><a href="#contact" title="Contact Us" data-page-path="./common/">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <contentarea data-page-start="#home"></contentarea>
+    </div>
+
+    <script src="../Scripts/jquery-3.2.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/spa-common.js"></script>  
+</body>
+</html>
