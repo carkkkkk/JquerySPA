@@ -8,15 +8,17 @@
 	<link href="../Content/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-    <nav class="navbar navbar-fixed navbar-inverse" role="navigation">
+    <nav class="navbar navbar-static-top navbar-default" role="navigation">
         <div class="container">
-            <a href="#home" title="Home" data-page-path="./common/" class="navbar-brand">Home</a>
+            <a href="#home" title="ExemploSPA" data-page-path="./common/" class="navbar-brand">ExemploSPA</a>
+            <ul class="nav navbar-nav">
+                <li><a href="#home" title="Home" data-page-path="./common/">Home</a></li>
+                <li><a href="#contact" title="Contact Us" data-page-path="./common/">Contact</a></li>
+                <li><a href="#about" title="About" data-page-path="./common/">About</a></li>
+            </ul>
         </div>
-        <ul class="nav navbar-nav">
-            <li><a href="#about" title="About" data-page-path="./common/">About</a></li>
-            <li><a href="#contact" title="Contact Us" data-page-path="./common/">Contact</a></li>
-        </ul>
     </nav>
+
     <div class="container">
         <contentarea data-page-start="#home"></contentarea>
     </div>
